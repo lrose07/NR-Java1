@@ -1,0 +1,32 @@
+!SESSION 2017-08-28 19:11:51.449 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/Lauren/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data /Users/Lauren/GitHub/NR-Java -product org.eclipse.epp.package.java.product -keyring /Users/Lauren/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-08-28 19:11:57.256
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.oomph.base 4 0 2017-08-28 19:12:11.825
+!MESSAGE /Users/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.oomph.setup/installation.setup (No such file or directory)
+!STACK 0
+java.io.FileNotFoundException: /Users/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.oomph.setup/installation.setup (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.eclipse.emf.ecore.resource.impl.FileURIHandlerImpl$1.<init>(FileURIHandlerImpl.java:65)
+	at org.eclipse.emf.ecore.resource.impl.FileURIHandlerImpl.createOutputStream(FileURIHandlerImpl.java:65)
+	at org.eclipse.emf.ecore.resource.impl.ExtensibleURIConverterImpl.createOutputStream(ExtensibleURIConverterImpl.java:349)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.saveOnlyIfChangedWithMemoryBuffer(ResourceImpl.java:1234)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.save(ResourceImpl.java:985)
+	at org.eclipse.oomph.base.util.BaseUtil.saveEObject(BaseUtil.java:109)
+	at org.eclipse.oomph.setup.ui.wizards.ProgressPage.saveLocalFiles(ProgressPage.java:1033)
+	at org.eclipse.oomph.setup.ui.wizards.ProgressPage.access$22(ProgressPage.java:1010)
+	at org.eclipse.oomph.setup.ui.wizards.ProgressPage$11$1.run(ProgressPage.java:696)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2017-08-28 19:12:16.888
+!MESSAGE Setup tasks were performed during startup updating 5 preferences. See '/Users/Lauren/.eclipse/org.eclipse.platform_4.7.0_1231987628_macosx_cocoa_x86_64/configuration/org.eclipse.oomph.setup/setup.log' for details

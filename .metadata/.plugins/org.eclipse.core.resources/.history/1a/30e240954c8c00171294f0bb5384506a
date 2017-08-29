@@ -1,0 +1,42 @@
+import java.util.Scanner;
+import java.util.Random;
+
+/*
+ *  HelloWorld.java
+ *  Hello World
+ *  
+ *  First program in CSC 201.
+ *  
+ *  @author: 	Lauren Rose
+ *  @date: 		28 Aug 2017
+ *  
+ */
+public class HelloWorld {
+	private static String name;
+	/*
+	 * @param args main arguments
+	 */
+	public static void main(String[] args) {
+		/*
+		 * 
+		 */
+		//gameStart();
+		
+		System.out.println("Choose a number between 1 and 100.");
+		double randNum = Math.floor(Math.random() * 100);
+		System.out.println(randNum);
+	}
+	
+	public static void gameStart() {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("What is your name?");
+		name = scanner.nextLine();
+		System.out.println("Hello " +name);
+	}
+	
+//	public void randomNum(int f) {
+//		for (int j = 0; j <= f; j++) {
+//			
+//		}
+//	}
+}

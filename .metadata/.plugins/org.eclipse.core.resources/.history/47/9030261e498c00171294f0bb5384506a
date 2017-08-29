@@ -1,0 +1,20 @@
+/*
+ *  helloWorld.java
+ *  Hello World
+ *  
+ *  First program in CSC 201.
+ *  
+ *  @author: 	Lauren Rose
+ *  @date: 		28 Aug 2017
+ *  
+ */
+public class HelloWorld {
+	
+	/*
+	 * @param args main arguments
+	 */
+	public static void main(String[] args) {
+		
+		System.out.println("Hello World");
+	}
+}

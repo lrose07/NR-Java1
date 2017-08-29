@@ -1,0 +1,24 @@
+/*
+ *  HelloWorld.java
+ *  Hello World
+ *  
+ *  First program in CSC 201.
+ *  
+ *  @author: 	Lauren Rose
+ *  @date: 		28 Aug 2017
+ *  
+ */
+public class HelloWorld {
+	
+	/*
+	 * @param args main arguments
+	 */
+	public static void main(String[] args) {
+		
+		for (int i=0; i<=100; i++) {
+			System.out.println("This loop has run " +i+ " times.");
+		}
+		
+		//System.out.println("Hello World");
+	}
+}

@@ -1,0 +1,3 @@
+INDEX VERSION 1.130+/Users/Lauren/GitHub/NR-Java/.metadata/.plugins/org.eclipse.jdt.core
+820019804.index
+2809461012.index

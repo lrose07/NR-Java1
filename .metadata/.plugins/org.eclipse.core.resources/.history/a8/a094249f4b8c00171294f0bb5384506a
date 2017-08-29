@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+/*
+ *  HelloWorld.java
+ *  Hello World
+ *  
+ *  First program in CSC 201.
+ *  
+ *  @author: 	Lauren Rose
+ *  @date: 		28 Aug 2017
+ *  
+ */
+public class HelloWorld {
+	
+	/*
+	 * @param args main arguments
+	 */
+	public static void main(String[] args) {
+		/*
+		 * 
+		 */
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("What is your name?");
+		String name = scanner.nextLine();
+		System.out.println("Hello " +name);
+	}
+	
+//	public void randomNum(int f) {
+//		for (int j = 0; j <= f; j++) {
+//			
+//		}
+//	}
+}
